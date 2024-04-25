@@ -14,9 +14,9 @@ This project is a web application designed for face verification. It incorporate
 
 0. **Prerequisites:** Ensure you have `Node.js`, `npm` and `python` (Node Package Manager) installed on your system.
 
-Versions Used:
- `Python 3.11.0`
-`Node 20.11.0`
+    **Versions Used:**
+     - `Python 3.11.0`
+     - `Node 20.11.0`
 
 1. **Create Your Database:**
    - Create a folder named `data`.
@@ -31,8 +31,10 @@ Versions Used:
 3. **Run the Notebook:**
    - Run the notebook to create and train your own face verification model using the specified techniques.
 
+
 4. **Start the Server:**
-   - Navigate to the root directory where `server.js` and `package.json` files are located.
+   - Navigate to the root directory where `requirements.txt` and `package.json` files are located.
+   - Run `pip install requirements.txt` to install necessary python packages.
    - Run `npm install` to install necessary dependencies.
    - Run `node server.js` to spin up the server.
    - Voilà! Your project is now running, and you can access the web app for face verification tasks.
@@ -40,6 +42,7 @@ Versions Used:
 ### Additional Notes
 
 - Make sure to have the required libraries and frameworks installed for running the notebook and the server.
+- If the `python` files is not getting executed, just create a virtual environament and try running the project there.
 - Customize the web app interface and functionalities as per your requirements.
 
 Enjoy exploring face verification with your web app! If you need further assistance or have any questions, feel free to reach out.
