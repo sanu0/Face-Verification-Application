@@ -10,6 +10,9 @@ This project is a web application designed for face verification. It incorporate
 2. **Deep Face:** Employs deep learning techniques for face recognition and verification.
 3. **Siamese Network:** Uses a Siamese neural network architecture for face verification tasks.
 
+- **References**
+    - Siamese Network : [Link to Paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+
 ### Setup Guide
 
 0. **Prerequisites:** Ensure you have `Node.js`, `npm` and `python` (Node Package Manager) installed on your system.
