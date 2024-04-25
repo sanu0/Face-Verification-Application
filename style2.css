@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5eaf5;
+  /* Freeze Purple */
+  background-image: url("dragon-scales.svg");
+  /* Replace with your image path */
+  background-repeat: repeat-x;
+  /* Optional: controls how the image repeats */
+  background-position: center;
+  /* Optional: controls image placement */
+  background-size: cover;
+  /* Optional: controls image size */
+}
+
+header {
+  background-color: #a0d2eb;
+  /* Ice Cold */
+  padding: 20px;
+  text-align: center;
+  color: #8458B3;
+  /* Purple Pain */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #d0bdf4;
+  /* Medium Purple */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #a28089;
+  /* Heavy Purple */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  /* White */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #a28089;
+  /* Heavy Purple */
+  color: #fff;
+  /* White */
+  padding: 10px;
+  text-align: center;
+}

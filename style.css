@@ -1,0 +1,125 @@
+/* 
+#a0d2eb 
+#e5eaf5 
+#d0bdf4 
+#8458B3 
+#a28089 
+*/
+
+body {
+  font-family: sans-serif;
+  background-color: #e5eaf5;
+  background-image: url("dragon-scales.svg");
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: center top;
+  min-height: 120vh;
+}
+
+header {
+  background-color: #a0d2eb;
+  padding: 20px;
+  text-align: center;
+  color: #a28089;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+form {
+  background-color: #a0d2eb;
+  color: #8458B3;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.resultContainer{
+    background-color: #a0d2eb;
+    color: #8458B3;
+    font-weight: bold;
+    font-size: medium;
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.images {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 150px;
+}
+
+.image-preview-container{
+  width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 3px solid #8008A9;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  margin: 10px auto;
+}
+
+input[type="file"] {
+  justify-content: center;
+  padding: 10px;
+  margin: auto 10px;
+  font-size: 16px;
+  outline: none; 
+}
+
+
+button[type="submit"] {
+  margin: 10px;
+  background-color: #57047E;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+select {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #57047E;
+  /* Heavy Purple */
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: #faf2fc;
+  /* White background for select */
+  color: #000;
+  /* Text color */
+}
+
+select option {
+  background-color: #fff;
+  /* Freeze Purple */
+  color: #8458B3;
+  /* Text color */
+}
+
+select option:hover {
+  background-color: #fff;
+  /* Medium Purple */
+}
+
+select option:checked {
+  background-color: #fff;
+  /* Purple Pain */
+  color: #8458B3;
+  /* Text color */
+}

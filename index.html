@@ -1,0 +1,46 @@
+<!-- Display image  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>FACE VERIFICATION APP</h1>
+  <form id="uploadForm" action="/" method="post" enctype="multipart/form-data">
+    <div class="image-preview-container">
+      <input type="file" id="image1" name="image1" accept="image/*">
+      <img class="images" id="image1Preview" src="" alt="Image Preview" style="display: none; width: auto; height: 150px;">
+    </div>
+    <div class="image-preview-container">
+      <input type="file" id="image2" name="image2" accept="image/*">
+      <img class="images" id="image2Preview" src="" alt="Image Preview" style="display: none; width: auto; height: 150px;">
+    </div>
+    <br />
+
+    <div>
+      <button type="submit" onclick="handleUpload(event)">UPLOAD</button>
+    </div>
+    <select name="category1" id="category">
+      <option value="" disabled selected>SELECT MODEL</option>
+      <option value="knn">KNN</option>
+      <option value="siamese">SIAMESE</option>
+      <option value="deep">DEEP FACE</option>
+      <option value="faltu">FALTU</option>
+    </select>
+
+    <div>
+      <button type="submit" onclick="handleVerify(event)">VERIFY</button>
+    </div>
+  </form>
+  <div id="result" class="resultContainer">
+    Result Here
+  </div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
